@@ -1,0 +1,5 @@
+class: AuthModel
+fields:
+    success: bool
+    message: String
+    data: User?

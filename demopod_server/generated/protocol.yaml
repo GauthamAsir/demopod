@@ -1,0 +1,10 @@
+authentication:
+  - signUp:
+  - login:
+  - checkUserExistbyEmail:
+example:
+  - hello:
+  - getArticleById:
+  - addArticle:
+  - updateArticle:
+  - deleteArticle:

@@ -1,0 +1,8 @@
+class: Article
+table: article
+fields:
+  title: String
+  content: String
+  authorName: String
+  publishedOn: DateTime
+  isPrime: bool

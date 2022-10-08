@@ -1,0 +1,16 @@
+class: User
+table: userdata
+fields:
+  userName: String
+  displayName: String?
+  firstName: String
+  lastName: String?
+  dateOfBirth: DateTime
+  registerDate: DateTime?, database
+  lastLoginDate: DateTime?, database
+  lastModified: DateTime?, database
+  email: String
+  password: String?, database
+indexes:
+  user_idx:
+    fields: email, userName
